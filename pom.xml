@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2</version>
 	
 	<name>maven-web-application</name>
 
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url> http://44.192.81.238:8888/mylandmarktech/repository/ebay-java-app-releases/</url>
+	      <url>http://35.182.254.95:8081/repository/Jenkins-Docker-Pipeline-Project3-RELEASE/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://44.192.81.238:8888/mylandmarktech/repository/ebay-java-app-snapshot/</url>
+	      <url>http://35.182.254.95:8081/repository/Jenkins-Docker-Pipeline-Project3-SNAPSHOT/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>

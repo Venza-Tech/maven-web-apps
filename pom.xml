@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.4</version>
+	<version>0.0.5</version>
 	
 	<name>maven-web-application</name>
 
@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http:35.182.231.64:9000/</sonar.host.url>
+		<sonar.host.url>http:3.98.124.237:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://35.182.254.95:8081/repository/Docker-Maven-Pipeline-CRA-RELEASE/</url>
+	      <url>http://15.223.50.159:8081/repository/CRA-Jenkins-Docker-Pipeline-Project5-RELEASE/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://35.182.254.95:8081/repository/Ebay-java-web-app-SNAPSHOT/</url>
+	      <url>http://15.223.50.159:8081/repository/CRA-Jenkins-Docker-Pipeline-Project5-SNAPSHOT/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
